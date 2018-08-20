@@ -107,7 +107,7 @@ class samplePage extends Page {
     browser.pause(500);
   }
   goToEnterEmail(){
-    this.emailBar.setValue("userautomation@mail.com");
+    this.emailBar.setValue("ashwinuser@mail.com");
     browser.pause(500);
   }
   goToCreateAccount(){
@@ -119,7 +119,7 @@ class samplePage extends Page {
     this.femalegenderbutton.click();
     this.firstNameBar.setValue("ab");
     this.lastNameBar.setValue("cd");
-    this.emailEnterBar.setValue("userautomation@mail.com");
+    this.emailEnterBar.setValue("ashwinuser@mail.com");
     this.passwordBar.setValue("Password123");
     this.birthdayBar.selectByValue(1);
     this.birthdayMonth.selectByValue(1);
